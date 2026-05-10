@@ -1,0 +1,21 @@
+.header {
+    z-index: 2;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(39.74788284301758px);
+    background: rgba(56, 56, 56, 0.44);    
+}
+
+
+.header_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_link {
+    font-size: 23px;
+    font-family: var(--font-poiret);
+}

@@ -1,0 +1,28 @@
+.footer {
+    height: 388px;
+    background-image: url('../../assets/img/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 53px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.footer__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.footer__link {
+    font-size: 23px;
+    font-family: var(--font-poiret);
+}
