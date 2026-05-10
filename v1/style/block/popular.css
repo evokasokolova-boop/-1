@@ -1,0 +1,8 @@
+.popular__title {
+    font-family: var(--font-kudryashev);
+    font-size: 59px;
+    line-height: 90%;
+    color: var(--color-black);
+    font-weight: 400;
+    margin-bottom: 143px;
+}

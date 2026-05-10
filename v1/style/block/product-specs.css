@@ -1,0 +1,35 @@
+.product-specs__box {
+    max-width: 70%;
+    border: 1px solid #e5e5e5;
+    border-radius: 24px;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-specs__item {
+    display: flex;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--color-black);
+}
+
+.product-specs__label {
+    text-transform: lowercase;
+    white-space: nowrap;
+}
+
+.product-specs__line {
+    flex-grow: 1;
+    border-bottom: 1px solid #111;
+    margin: 0 10px 4px 10px;
+}
+
+.product-specs__value {
+    font-weight: 500;
+    text-transform: lowercase;
+    white-space: nowrap;
+}

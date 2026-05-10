@@ -1,0 +1,38 @@
+.slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.slider-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.slider-btn:hover svg path {
+    stroke: #D9E9AC;
+}
+
+.slider-btn svg path {
+    transition: stroke 0.3s ease;
+}
+
+.slider-viewport {
+    flex: 1;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    gap: 20px;
+}
+
+.slider-img {
+    min-width: calc(50% - 10px);
+    height: auto;
+    flex-shrink: 0;
+}

@@ -1,0 +1,19 @@
+.ne-hero {
+    height: 397px;
+    display: flex;
+    background-image: url('../../assets/img/catalog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.ne-hero--small {
+    height: 357px;
+}
+
+.ne-hero__title {
+    font-size: 96px;
+    font-family: var(--font-kudry);
+    font-weight: 400;
+}
